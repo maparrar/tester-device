@@ -1,0 +1,47 @@
+\hypertarget{_block_8h}{
+\section{include/tester/tasks/pointing/Block.h File Reference}
+\label{_block_8h}\index{include/tester/tasks/pointing/Block.h@{include/tester/tasks/pointing/Block.h}}
+}
+
+
+Header for class \hyperlink{class_block}{Block}.  
+
+
+{\ttfamily \#include $<$QVector$>$}\par
+{\ttfamily \#include \char`\"{}Trial.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}Difficulty.h\char`\"{}}\par
+Include dependency graph for Block.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{_block_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{_block_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_block}{Block}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Header for class \hyperlink{class_block}{Block}. \begin{DoxyAuthor}{Author}
+Miguel Alejandro Parra Romero (\href{mailto:maparrar@unal.edu.co}{\tt maparrar@unal.edu.co}) 
+
+Jean Pierre Charalambos 
+
+Universidad Nacional de Colombia -\/ 2011
+\end{DoxyAuthor}
+BSD License
+
+Project info \href{http://code.google.com/p/tester-device/}{\tt http://code.google.com/p/tester-\/device/} 
+
+Definition in file \hyperlink{_block_8h_source}{Block.h}.
+

@@ -1,0 +1,244 @@
+\hypertarget{class_intento}{
+\section{Intento Class Reference}
+\label{class_intento}\index{Intento@{Intento}}
+}
+
+
+{\ttfamily \#include $<$Intento.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_intento_a858726dfa0128d5f9f8a536ad9bc8074}{Intento} ()
+\item 
+\hyperlink{class_intento_a6f0a963a2ee59b573b659b73a64ead49}{Intento} (Circulo a, Circulo b)
+\item 
+\hyperlink{class_intento_ac06896c358aa76d980ee9ac1470b4e4e}{Intento} (Punto p, float ancho, float distancia, float angulo)
+\item 
+virtual \hyperlink{class_intento_ab9fc0d83763cf3c812abbc8ba7313a91}{$\sim$Intento} ()
+\item 
+void \hyperlink{class_intento_a68cac1f5ee3b1dc2131a9d9407508b2c}{setEstado} (int \_\-estado)
+\item 
+int \hyperlink{class_intento_ae32bce8d1370bb1000cebec876a57477}{getEstado} ()
+\item 
+float \hyperlink{class_intento_ada450578a22bbdc35425b5ddb5c8bee1}{getW} ()
+\item 
+float \hyperlink{class_intento_a369bfc522fc9052ca9a363a1defa00c9}{getD} ()
+\item 
+long \hyperlink{class_intento_a8df72be31c030a605a7980ec835a6d83}{getMT} ()
+\item 
+float \hyperlink{class_intento_af17d828cec8c40d781103904c065937a}{getID} ()
+\item 
+float \hyperlink{class_intento_a5d7bbc06b8545ae567f2f994cd48de66}{getDr} ()
+\item 
+void \hyperlink{class_intento_a237eb92e5417e3f26d808edc26407cd7}{init} ()
+\item 
+void \hyperlink{class_intento_ae8b7fb21ca9924aaa44c396f35b9122c}{dibujar} (Punto p)
+\item 
+void \hyperlink{class_intento_aa57c7776c229d3aa050b38e3ba6d87da}{click} (Punto p)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 11 of file Intento.h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_intento_a858726dfa0128d5f9f8a536ad9bc8074}{
+\index{Intento@{Intento}!Intento@{Intento}}
+\index{Intento@{Intento}!Intento@{Intento}}
+\subsubsection[{Intento}]{\setlength{\rightskip}{0pt plus 5cm}Intento::Intento (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_intento_a858726dfa0128d5f9f8a536ad9bc8074}
+
+
+Definition at line 8 of file Intento.cpp.
+
+\hypertarget{class_intento_a6f0a963a2ee59b573b659b73a64ead49}{
+\index{Intento@{Intento}!Intento@{Intento}}
+\index{Intento@{Intento}!Intento@{Intento}}
+\subsubsection[{Intento}]{\setlength{\rightskip}{0pt plus 5cm}Intento::Intento (
+\begin{DoxyParamCaption}
+\item[{Circulo}]{a, }
+\item[{Circulo}]{b}
+\end{DoxyParamCaption}
+)}}
+\label{class_intento_a6f0a963a2ee59b573b659b73a64ead49}
+
+
+Definition at line 15 of file Intento.cpp.
+
+\hypertarget{class_intento_ac06896c358aa76d980ee9ac1470b4e4e}{
+\index{Intento@{Intento}!Intento@{Intento}}
+\index{Intento@{Intento}!Intento@{Intento}}
+\subsubsection[{Intento}]{\setlength{\rightskip}{0pt plus 5cm}Intento::Intento (
+\begin{DoxyParamCaption}
+\item[{Punto}]{p, }
+\item[{float}]{ancho, }
+\item[{float}]{distancia, }
+\item[{float}]{angulo}
+\end{DoxyParamCaption}
+)}}
+\label{class_intento_ac06896c358aa76d980ee9ac1470b4e4e}
+
+
+Definition at line 22 of file Intento.cpp.
+
+\hypertarget{class_intento_ab9fc0d83763cf3c812abbc8ba7313a91}{
+\index{Intento@{Intento}!$\sim$Intento@{$\sim$Intento}}
+\index{$\sim$Intento@{$\sim$Intento}!Intento@{Intento}}
+\subsubsection[{$\sim$Intento}]{\setlength{\rightskip}{0pt plus 5cm}Intento::$\sim$Intento (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{class_intento_ab9fc0d83763cf3c812abbc8ba7313a91}
+
+
+Definition at line 41 of file Intento.cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_intento_aa57c7776c229d3aa050b38e3ba6d87da}{
+\index{Intento@{Intento}!click@{click}}
+\index{click@{click}!Intento@{Intento}}
+\subsubsection[{click}]{\setlength{\rightskip}{0pt plus 5cm}void Intento::click (
+\begin{DoxyParamCaption}
+\item[{Punto}]{p}
+\end{DoxyParamCaption}
+)}}
+\label{class_intento_aa57c7776c229d3aa050b38e3ba6d87da}
+
+
+Definition at line 68 of file Intento.cpp.
+
+\hypertarget{class_intento_ae8b7fb21ca9924aaa44c396f35b9122c}{
+\index{Intento@{Intento}!dibujar@{dibujar}}
+\index{dibujar@{dibujar}!Intento@{Intento}}
+\subsubsection[{dibujar}]{\setlength{\rightskip}{0pt plus 5cm}void Intento::dibujar (
+\begin{DoxyParamCaption}
+\item[{Punto}]{p}
+\end{DoxyParamCaption}
+)}}
+\label{class_intento_ae8b7fb21ca9924aaa44c396f35b9122c}
+
+
+Definition at line 60 of file Intento.cpp.
+
+\hypertarget{class_intento_a369bfc522fc9052ca9a363a1defa00c9}{
+\index{Intento@{Intento}!getD@{getD}}
+\index{getD@{getD}!Intento@{Intento}}
+\subsubsection[{getD}]{\setlength{\rightskip}{0pt plus 5cm}float Intento::getD (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_intento_a369bfc522fc9052ca9a363a1defa00c9}
+
+
+Definition at line 48 of file Intento.cpp.
+
+\hypertarget{class_intento_a5d7bbc06b8545ae567f2f994cd48de66}{
+\index{Intento@{Intento}!getDr@{getDr}}
+\index{getDr@{getDr}!Intento@{Intento}}
+\subsubsection[{getDr}]{\setlength{\rightskip}{0pt plus 5cm}float Intento::getDr (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_intento_a5d7bbc06b8545ae567f2f994cd48de66}
+
+
+Definition at line 51 of file Intento.cpp.
+
+\hypertarget{class_intento_ae32bce8d1370bb1000cebec876a57477}{
+\index{Intento@{Intento}!getEstado@{getEstado}}
+\index{getEstado@{getEstado}!Intento@{Intento}}
+\subsubsection[{getEstado}]{\setlength{\rightskip}{0pt plus 5cm}int Intento::getEstado (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_intento_ae32bce8d1370bb1000cebec876a57477}
+
+
+Definition at line 46 of file Intento.cpp.
+
+\hypertarget{class_intento_af17d828cec8c40d781103904c065937a}{
+\index{Intento@{Intento}!getID@{getID}}
+\index{getID@{getID}!Intento@{Intento}}
+\subsubsection[{getID}]{\setlength{\rightskip}{0pt plus 5cm}float Intento::getID (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_intento_af17d828cec8c40d781103904c065937a}
+
+
+Definition at line 50 of file Intento.cpp.
+
+\hypertarget{class_intento_a8df72be31c030a605a7980ec835a6d83}{
+\index{Intento@{Intento}!getMT@{getMT}}
+\index{getMT@{getMT}!Intento@{Intento}}
+\subsubsection[{getMT}]{\setlength{\rightskip}{0pt plus 5cm}long Intento::getMT (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_intento_a8df72be31c030a605a7980ec835a6d83}
+
+
+Definition at line 49 of file Intento.cpp.
+
+\hypertarget{class_intento_ada450578a22bbdc35425b5ddb5c8bee1}{
+\index{Intento@{Intento}!getW@{getW}}
+\index{getW@{getW}!Intento@{Intento}}
+\subsubsection[{getW}]{\setlength{\rightskip}{0pt plus 5cm}float Intento::getW (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_intento_ada450578a22bbdc35425b5ddb5c8bee1}
+
+
+Definition at line 47 of file Intento.cpp.
+
+\hypertarget{class_intento_a237eb92e5417e3f26d808edc26407cd7}{
+\index{Intento@{Intento}!init@{init}}
+\index{init@{init}!Intento@{Intento}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void Intento::init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_intento_a237eb92e5417e3f26d808edc26407cd7}
+
+
+Definition at line 57 of file Intento.cpp.
+
+\hypertarget{class_intento_a68cac1f5ee3b1dc2131a9d9407508b2c}{
+\index{Intento@{Intento}!setEstado@{setEstado}}
+\index{setEstado@{setEstado}!Intento@{Intento}}
+\subsubsection[{setEstado}]{\setlength{\rightskip}{0pt plus 5cm}void Intento::setEstado (
+\begin{DoxyParamCaption}
+\item[{int}]{\_\-estado}
+\end{DoxyParamCaption}
+)}}
+\label{class_intento_a68cac1f5ee3b1dc2131a9d9407508b2c}
+
+
+Definition at line 45 of file Intento.cpp.
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+include/tester/tasks/pointing/\hyperlink{_intento_8h}{Intento.h}\item 
+src/tasks/pointing/\hyperlink{_intento_8cpp}{Intento.cpp}\end{DoxyCompactItemize}

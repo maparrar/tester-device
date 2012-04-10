@@ -1,0 +1,6 @@
+\label{bug__bug000001}
+\hypertarget{bug__bug000001}{}
+ 
+\begin{DoxyDescription}
+\item[Namespace \hyperlink{namespacestd}{std} ]Not all memory is freed when deleting an object of this class. 
+\end{DoxyDescription}

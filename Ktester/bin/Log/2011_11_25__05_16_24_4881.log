@@ -1,0 +1,4 @@
+     2368	INFO      	Log	XnLog.cpp	329	OpenNI version is 1.4.0 (Build 2)-Linux-x86 (Nov 16 2011 15:07:49)
+     2490	INFO      	Log	XnLog.cpp	307	--- Filter Info --- Minimum Severity: ERROR
+ 44310341	ERROR     	xnOS	LinuxNetwork.cpp	489	recv() failed with error 104
+ 44310425	ERROR     	IoNetStream	XnIONetworkStream.cpp	86	Got an error while reading network buffer: Xiron OS failed to receive a network buffer!

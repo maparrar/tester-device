@@ -1,0 +1,19 @@
+\hypertarget{_intento_8h}{
+\section{include/tester/tasks/pointing/Intento.h File Reference}
+\label{_intento_8h}\index{include/tester/tasks/pointing/Intento.h@{include/tester/tasks/pointing/Intento.h}}
+}
+{\ttfamily \#include $<$QTime$>$}\par
+{\ttfamily \#include $<$math.h$>$}\par
+{\ttfamily \#include \char`\"{}Circulo.h\char`\"{}}\par
+Include dependency graph for Intento.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{_intento_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_intento}{Intento}
+\end{DoxyCompactItemize}

@@ -1,0 +1,19 @@
+/* 
+ * File:   main.cpp
+ * Author: alejo
+ *
+ * Created on 23 de noviembre de 2011, 04:15 PM
+ */
+
+#include <cstdlib>
+
+using namespace std;
+
+/*
+ * 
+ */
+int main(int argc, char** argv) {
+    int a;
+    return 0;
+}
+

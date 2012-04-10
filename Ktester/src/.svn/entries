@@ -1,0 +1,72 @@
+10
+
+dir
+0
+https://tester-device.googlecode.com/svn/trunk/Ktester/src
+https://tester-device.googlecode.com/svn
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8d53e287-3722-e1c1-c425-3b48061b41a1
+
+Viewer.cpp
+file
+
+
+
+add
+
+48f381cf85156cf01f53e480b1e1f827
+
+
+
+
+
+
+
+
+
+
+
+copied
+https://tester-device.googlecode.com/svn/trunk/tester/src/Viewer.cpp
+137
+
+devices
+dir
+
+
+
+add
+
+tasks
+dir
+
+
+
+add
+
+util
+dir
+
+
+
+add
+

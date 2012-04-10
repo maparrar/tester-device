@@ -1,0 +1,298 @@
+\hypertarget{class_trial}{
+\section{Trial Class Reference}
+\label{class_trial}\index{Trial@{Trial}}
+}
+
+
+{\ttfamily \#include $<$Trial.h$>$}
+
+
+
+Collaboration diagram for Trial:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=161pt]{class_trial__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_trial_a7e5eac99fded2d006692cfde60ff494d}{Trial} ()
+\item 
+\hyperlink{class_trial_a48a92dca6b87da18d3dca1953031c0a3}{Trial} (\hyperlink{class_circle}{Circle} a, \hyperlink{class_circle}{Circle} b)
+\item 
+\hyperlink{class_trial_aace2e2679ee5addedd467b933218e5d1}{Trial} (\hyperlink{class_point}{Point} p, float width, float distance, float angle)
+\item 
+virtual \hyperlink{class_trial_a33d235420c2cf50eda5e4952dc2a3bad}{$\sim$Trial} ()
+\item 
+void \hyperlink{class_trial_aea70d6c3ae4a7e117b5117df80fae3bd}{setState} (int \_\-state)
+\item 
+int \hyperlink{class_trial_ad6389c7b0bfb2cb57d715ab1a1d10542}{getState} ()
+\item 
+float \hyperlink{class_trial_a6dea8881b18203b7301ebe9fcb88ff57}{getW} ()
+\item 
+float \hyperlink{class_trial_adc4cd1362fc3f3a61e6d586700cb4444}{getD} ()
+\item 
+long \hyperlink{class_trial_af86eab135b1b030ddc3eb4c9523ce788}{getMT} ()
+\item 
+float \hyperlink{class_trial_a413d5f1bd481cbd058fe6fad5f1526bf}{getID} ()
+\item 
+float \hyperlink{class_trial_a3030da279bd9dc8bb648e75b52209a52}{getDr} ()
+\item 
+void \hyperlink{class_trial_a260a8cc976aa276ef166f03509c958e7}{init} ()
+\item 
+void \hyperlink{class_trial_afbcc653136dcb6ae6c863fbba892503d}{paint} ()
+\item 
+void \hyperlink{class_trial_a09a729e2b35955c5f330025943ad6ff9}{click} (\hyperlink{class_point}{Point} p)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_trial}{Trial} is one attempt to do the task, for example, do click in the start \hyperlink{class_point}{Point} and then do click in the end \hyperlink{class_point}{Point} is a \hyperlink{class_trial}{Trial}. \hyperlink{class_trial}{Trial} description state:
+\begin{DoxyItemize}
+\item 0: The \hyperlink{class_trial}{Trial} doesn't have started
+\begin{DoxyItemize}
+\item Doesn't display anything
+\end{DoxyItemize}
+\item 1: The \hyperlink{class_trial}{Trial} has started
+\begin{DoxyItemize}
+\item Display c1 (circle 1)
+\end{DoxyItemize}
+\item 2: Click in c1
+\begin{DoxyItemize}
+\item Hide c1
+\item Display c2
+\item Waiting click in c2
+\item Start timer
+\end{DoxyItemize}
+\item 3: Click in c2
+\begin{DoxyItemize}
+\item Hide c2
+\item Return data
+\item Stop timer
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+\hyperlink{class_trial}{Trial} class provides measures of the test, these measures allow generate the statistic information of the experiment. The ID is based in the Fitts' Law. 
+
+Definition at line 33 of file Trial.h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_trial_a7e5eac99fded2d006692cfde60ff494d}{
+\index{Trial@{Trial}!Trial@{Trial}}
+\index{Trial@{Trial}!Trial@{Trial}}
+\subsubsection[{Trial}]{\setlength{\rightskip}{0pt plus 5cm}Trial::Trial (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_trial_a7e5eac99fded2d006692cfde60ff494d}
+
+
+Definition at line 10 of file Trial.cpp.
+
+\hypertarget{class_trial_a48a92dca6b87da18d3dca1953031c0a3}{
+\index{Trial@{Trial}!Trial@{Trial}}
+\index{Trial@{Trial}!Trial@{Trial}}
+\subsubsection[{Trial}]{\setlength{\rightskip}{0pt plus 5cm}Trial::Trial (
+\begin{DoxyParamCaption}
+\item[{{\bf Circle}}]{a, }
+\item[{{\bf Circle}}]{b}
+\end{DoxyParamCaption}
+)}}
+\label{class_trial_a48a92dca6b87da18d3dca1953031c0a3}
+
+
+Definition at line 17 of file Trial.cpp.
+
+\hypertarget{class_trial_aace2e2679ee5addedd467b933218e5d1}{
+\index{Trial@{Trial}!Trial@{Trial}}
+\index{Trial@{Trial}!Trial@{Trial}}
+\subsubsection[{Trial}]{\setlength{\rightskip}{0pt plus 5cm}Trial::Trial (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p, }
+\item[{float}]{width, }
+\item[{float}]{distance, }
+\item[{float}]{angle}
+\end{DoxyParamCaption}
+)}}
+\label{class_trial_aace2e2679ee5addedd467b933218e5d1}
+
+
+Definition at line 24 of file Trial.cpp.
+
+\hypertarget{class_trial_a33d235420c2cf50eda5e4952dc2a3bad}{
+\index{Trial@{Trial}!$\sim$Trial@{$\sim$Trial}}
+\index{$\sim$Trial@{$\sim$Trial}!Trial@{Trial}}
+\subsubsection[{$\sim$Trial}]{\setlength{\rightskip}{0pt plus 5cm}Trial::$\sim$Trial (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{class_trial_a33d235420c2cf50eda5e4952dc2a3bad}
+
+
+Definition at line 40 of file Trial.cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_trial_a09a729e2b35955c5f330025943ad6ff9}{
+\index{Trial@{Trial}!click@{click}}
+\index{click@{click}!Trial@{Trial}}
+\subsubsection[{click}]{\setlength{\rightskip}{0pt plus 5cm}void Trial::click (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p}
+\end{DoxyParamCaption}
+)}}
+\label{class_trial_a09a729e2b35955c5f330025943ad6ff9}
+Change the state based in \hyperlink{class_point}{Point} p 
+\begin{DoxyParams}{Parameters}
+{\em p} & \hyperlink{class_point}{Point} where did click \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 78 of file Trial.cpp.
+
+\hypertarget{class_trial_adc4cd1362fc3f3a61e6d586700cb4444}{
+\index{Trial@{Trial}!getD@{getD}}
+\index{getD@{getD}!Trial@{Trial}}
+\subsubsection[{getD}]{\setlength{\rightskip}{0pt plus 5cm}float Trial::getD (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_trial_adc4cd1362fc3f3a61e6d586700cb4444}
+Distance between c1 (start circle) and c2 (stop circle) \begin{DoxyReturn}{Returns}
+distance between c1 and c2 
+\end{DoxyReturn}
+
+
+Definition at line 53 of file Trial.cpp.
+
+\hypertarget{class_trial_a3030da279bd9dc8bb648e75b52209a52}{
+\index{Trial@{Trial}!getDr@{getDr}}
+\index{getDr@{getDr}!Trial@{Trial}}
+\subsubsection[{getDr}]{\setlength{\rightskip}{0pt plus 5cm}float Trial::getDr (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_trial_a3030da279bd9dc8bb648e75b52209a52}
+Returns the real distance between the two clicks, not necessarily equals to D. \begin{DoxyReturn}{Returns}
+Distance between clicks 
+\end{DoxyReturn}
+
+
+Definition at line 62 of file Trial.cpp.
+
+\hypertarget{class_trial_a413d5f1bd481cbd058fe6fad5f1526bf}{
+\index{Trial@{Trial}!getID@{getID}}
+\index{getID@{getID}!Trial@{Trial}}
+\subsubsection[{getID}]{\setlength{\rightskip}{0pt plus 5cm}float Trial::getID (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_trial_a413d5f1bd481cbd058fe6fad5f1526bf}
+\hyperlink{class_difficulty}{Difficulty} index calculated of the circles. The ID is based in the Fitts' Law. $ID=log_2(\frac{D}{W}+1)$ \begin{DoxyReturn}{Returns}
+ID of the \hyperlink{class_trial}{Trial}. 
+\end{DoxyReturn}
+
+
+Definition at line 59 of file Trial.cpp.
+
+\hypertarget{class_trial_af86eab135b1b030ddc3eb4c9523ce788}{
+\index{Trial@{Trial}!getMT@{getMT}}
+\index{getMT@{getMT}!Trial@{Trial}}
+\subsubsection[{getMT}]{\setlength{\rightskip}{0pt plus 5cm}long Trial::getMT (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_trial_af86eab135b1b030ddc3eb4c9523ce788}
+Time to complete the \hyperlink{class_trial}{Trial} in milliseconds \begin{DoxyReturn}{Returns}
+time of the \hyperlink{class_trial}{Trial} 
+\end{DoxyReturn}
+
+
+Definition at line 56 of file Trial.cpp.
+
+\hypertarget{class_trial_ad6389c7b0bfb2cb57d715ab1a1d10542}{
+\index{Trial@{Trial}!getState@{getState}}
+\index{getState@{getState}!Trial@{Trial}}
+\subsubsection[{getState}]{\setlength{\rightskip}{0pt plus 5cm}int Trial::getState (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_trial_ad6389c7b0bfb2cb57d715ab1a1d10542}
+
+
+Definition at line 47 of file Trial.cpp.
+
+\hypertarget{class_trial_a6dea8881b18203b7301ebe9fcb88ff57}{
+\index{Trial@{Trial}!getW@{getW}}
+\index{getW@{getW}!Trial@{Trial}}
+\subsubsection[{getW}]{\setlength{\rightskip}{0pt plus 5cm}float Trial::getW (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_trial_a6dea8881b18203b7301ebe9fcb88ff57}
+Returns the width of the \hyperlink{class_circle}{Circle} c2 (is the end or stop circle) \begin{DoxyReturn}{Returns}
+width of c2 
+\end{DoxyReturn}
+
+
+Definition at line 50 of file Trial.cpp.
+
+\hypertarget{class_trial_a260a8cc976aa276ef166f03509c958e7}{
+\index{Trial@{Trial}!init@{init}}
+\index{init@{init}!Trial@{Trial}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void Trial::init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_trial_a260a8cc976aa276ef166f03509c958e7}
+Set the state to 1 
+
+Definition at line 68 of file Trial.cpp.
+
+\hypertarget{class_trial_afbcc653136dcb6ae6c863fbba892503d}{
+\index{Trial@{Trial}!paint@{paint}}
+\index{paint@{paint}!Trial@{Trial}}
+\subsubsection[{paint}]{\setlength{\rightskip}{0pt plus 5cm}void Trial::paint (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_trial_afbcc653136dcb6ae6c863fbba892503d}
+Draw the circles according to state using OpenGL 
+
+Definition at line 71 of file Trial.cpp.
+
+\hypertarget{class_trial_aea70d6c3ae4a7e117b5117df80fae3bd}{
+\index{Trial@{Trial}!setState@{setState}}
+\index{setState@{setState}!Trial@{Trial}}
+\subsubsection[{setState}]{\setlength{\rightskip}{0pt plus 5cm}void Trial::setState (
+\begin{DoxyParamCaption}
+\item[{int}]{\_\-state}
+\end{DoxyParamCaption}
+)}}
+\label{class_trial_aea70d6c3ae4a7e117b5117df80fae3bd}
+
+
+Definition at line 44 of file Trial.cpp.
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+include/tester/tasks/pointing/\hyperlink{_trial_8h}{Trial.h}\item 
+src/tasks/pointing/\hyperlink{_trial_8cpp}{Trial.cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,274 @@
+\hypertarget{class_circle}{
+\section{Circle Class Reference}
+\label{class_circle}\index{Circle@{Circle}}
+}
+
+
+{\ttfamily \#include $<$Circle.h$>$}
+
+
+
+Inheritance diagram for Circle:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=122pt]{class_circle__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Circle:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=122pt]{class_circle__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_circle_ad1ecfcfc7bf34529c6a6d6c448bf70fe}{Circle} ()
+\item 
+\hyperlink{class_circle_aba2dac9a187f9abd04524b318324bd37}{Circle} (\hyperlink{class_point}{Point} p, double r)
+\item 
+\hyperlink{class_circle_a93a575926e1f7e7ded601a62c6530077}{Circle} (\hyperlink{class_point}{Point} p, double r, QColor \_\-color1)
+\item 
+\hyperlink{class_circle_a04f586b7f7943ea11652f858f6ffac3c}{Circle} (\hyperlink{class_point}{Point} p, double r, QColor \_\-color1, QColor \_\-color2)
+\item 
+\hyperlink{class_circle_a7a3f85aba3ba8228f2b3336a034f865f}{Circle} (\hyperlink{class_point}{Point} p, double r, QColor \_\-color1, QColor \_\-color2, QColor \_\-color3)
+\item 
+\hyperlink{class_circle_ae3f30436e645d73e368e8ee55f8d1650}{$\sim$Circle} ()
+\item 
+void \hyperlink{class_circle_ac900b9ff88e37e38363b430f0206bfad}{setVisible} (bool \_\-activo)
+\item 
+bool \hyperlink{class_circle_a4ff23e38b81fc22fa89f4e2155f759bc}{getVisible} ()
+\item 
+void \hyperlink{class_circle_a327bedfc4ded6c65ae63aa7258307a73}{setRadius} (double \_\-r)
+\item 
+double \hyperlink{class_circle_af9fccec77d3a15d63594666dc8501437}{getRadius} ()
+\item 
+virtual double \hyperlink{class_circle_a4f31d14f360b6e1f1acfb283ad65145a}{area} ()
+\item 
+virtual double \hyperlink{class_circle_ab0a4db4a814591918b0372feac5df46b}{perimeter} ()
+\item 
+void \hyperlink{class_circle_a907d31f610a206b32ec8e930f0355222}{paint} ()
+\item 
+bool \hyperlink{class_circle_ab70abceb992ef43842534160449a2964}{inside} (\hyperlink{class_point}{Point} p)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_circle}{Circle} allows create and manipulate circles based in \hyperlink{class_point}{Point} in the tester-\/device. 
+
+Definition at line 15 of file Circle.h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_circle_ad1ecfcfc7bf34529c6a6d6c448bf70fe}{
+\index{Circle@{Circle}!Circle@{Circle}}
+\index{Circle@{Circle}!Circle@{Circle}}
+\subsubsection[{Circle}]{\setlength{\rightskip}{0pt plus 5cm}Circle::Circle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_circle_ad1ecfcfc7bf34529c6a6d6c448bf70fe}
+
+
+Definition at line 9 of file Circle.cpp.
+
+\hypertarget{class_circle_aba2dac9a187f9abd04524b318324bd37}{
+\index{Circle@{Circle}!Circle@{Circle}}
+\index{Circle@{Circle}!Circle@{Circle}}
+\subsubsection[{Circle}]{\setlength{\rightskip}{0pt plus 5cm}Circle::Circle (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p, }
+\item[{double}]{r}
+\end{DoxyParamCaption}
+)}}
+\label{class_circle_aba2dac9a187f9abd04524b318324bd37}
+
+
+Definition at line 14 of file Circle.cpp.
+
+\hypertarget{class_circle_a93a575926e1f7e7ded601a62c6530077}{
+\index{Circle@{Circle}!Circle@{Circle}}
+\index{Circle@{Circle}!Circle@{Circle}}
+\subsubsection[{Circle}]{\setlength{\rightskip}{0pt plus 5cm}Circle::Circle (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p, }
+\item[{double}]{r, }
+\item[{QColor}]{\_\-color1}
+\end{DoxyParamCaption}
+)}}
+\label{class_circle_a93a575926e1f7e7ded601a62c6530077}
+
+
+Definition at line 19 of file Circle.cpp.
+
+\hypertarget{class_circle_a04f586b7f7943ea11652f858f6ffac3c}{
+\index{Circle@{Circle}!Circle@{Circle}}
+\index{Circle@{Circle}!Circle@{Circle}}
+\subsubsection[{Circle}]{\setlength{\rightskip}{0pt plus 5cm}Circle::Circle (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p, }
+\item[{double}]{r, }
+\item[{QColor}]{\_\-color1, }
+\item[{QColor}]{\_\-color2}
+\end{DoxyParamCaption}
+)}}
+\label{class_circle_a04f586b7f7943ea11652f858f6ffac3c}
+\hypertarget{class_circle_a7a3f85aba3ba8228f2b3336a034f865f}{
+\index{Circle@{Circle}!Circle@{Circle}}
+\index{Circle@{Circle}!Circle@{Circle}}
+\subsubsection[{Circle}]{\setlength{\rightskip}{0pt plus 5cm}Circle::Circle (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p, }
+\item[{double}]{r, }
+\item[{QColor}]{\_\-color1, }
+\item[{QColor}]{\_\-color2, }
+\item[{QColor}]{\_\-color3}
+\end{DoxyParamCaption}
+)}}
+\label{class_circle_a7a3f85aba3ba8228f2b3336a034f865f}
+\hypertarget{class_circle_ae3f30436e645d73e368e8ee55f8d1650}{
+\index{Circle@{Circle}!$\sim$Circle@{$\sim$Circle}}
+\index{$\sim$Circle@{$\sim$Circle}!Circle@{Circle}}
+\subsubsection[{$\sim$Circle}]{\setlength{\rightskip}{0pt plus 5cm}Circle::$\sim$Circle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_circle_ae3f30436e645d73e368e8ee55f8d1650}
+
+
+Definition at line 24 of file Circle.cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_circle_a4f31d14f360b6e1f1acfb283ad65145a}{
+\index{Circle@{Circle}!area@{area}}
+\index{area@{area}!Circle@{Circle}}
+\subsubsection[{area}]{\setlength{\rightskip}{0pt plus 5cm}double Circle::area (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{class_circle_a4f31d14f360b6e1f1acfb283ad65145a}
+Returns the \hyperlink{class_circle}{Circle} area \begin{DoxyReturn}{Returns}
+area of \hyperlink{class_circle}{Circle} 
+\end{DoxyReturn}
+
+
+Definition at line 37 of file Circle.cpp.
+
+\hypertarget{class_circle_af9fccec77d3a15d63594666dc8501437}{
+\index{Circle@{Circle}!getRadius@{getRadius}}
+\index{getRadius@{getRadius}!Circle@{Circle}}
+\subsubsection[{getRadius}]{\setlength{\rightskip}{0pt plus 5cm}double Circle::getRadius (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_circle_af9fccec77d3a15d63594666dc8501437}
+
+
+Definition at line 34 of file Circle.cpp.
+
+\hypertarget{class_circle_a4ff23e38b81fc22fa89f4e2155f759bc}{
+\index{Circle@{Circle}!getVisible@{getVisible}}
+\index{getVisible@{getVisible}!Circle@{Circle}}
+\subsubsection[{getVisible}]{\setlength{\rightskip}{0pt plus 5cm}bool Circle::getVisible (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_circle_a4ff23e38b81fc22fa89f4e2155f759bc}
+
+
+Definition at line 28 of file Circle.cpp.
+
+\hypertarget{class_circle_ab70abceb992ef43842534160449a2964}{
+\index{Circle@{Circle}!inside@{inside}}
+\index{inside@{inside}!Circle@{Circle}}
+\subsubsection[{inside}]{\setlength{\rightskip}{0pt plus 5cm}bool Circle::inside (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p}
+\end{DoxyParamCaption}
+)}}
+\label{class_circle_ab70abceb992ef43842534160449a2964}
+Returns if a \hyperlink{class_point}{Point} p is inside of the \hyperlink{class_circle}{Circle} 
+\begin{DoxyParams}{Parameters}
+{\em p} & \hyperlink{class_point}{Point} to evaluate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the \hyperlink{class_point}{Point} p is inside of \hyperlink{class_circle}{Circle}, false in otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 60 of file Circle.cpp.
+
+\hypertarget{class_circle_a907d31f610a206b32ec8e930f0355222}{
+\index{Circle@{Circle}!paint@{paint}}
+\index{paint@{paint}!Circle@{Circle}}
+\subsubsection[{paint}]{\setlength{\rightskip}{0pt plus 5cm}void Circle::paint (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_circle_a907d31f610a206b32ec8e930f0355222}
+Paints the \hyperlink{class_circle}{Circle} using OpenGL 
+
+Definition at line 46 of file Circle.cpp.
+
+\hypertarget{class_circle_ab0a4db4a814591918b0372feac5df46b}{
+\index{Circle@{Circle}!perimeter@{perimeter}}
+\index{perimeter@{perimeter}!Circle@{Circle}}
+\subsubsection[{perimeter}]{\setlength{\rightskip}{0pt plus 5cm}double Circle::perimeter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{class_circle_ab0a4db4a814591918b0372feac5df46b}
+Returns the \hyperlink{class_circle}{Circle} perimeter \begin{DoxyReturn}{Returns}
+perimeter of \hyperlink{class_circle}{Circle} 
+\end{DoxyReturn}
+
+
+Definition at line 41 of file Circle.cpp.
+
+\hypertarget{class_circle_a327bedfc4ded6c65ae63aa7258307a73}{
+\index{Circle@{Circle}!setRadius@{setRadius}}
+\index{setRadius@{setRadius}!Circle@{Circle}}
+\subsubsection[{setRadius}]{\setlength{\rightskip}{0pt plus 5cm}void Circle::setRadius (
+\begin{DoxyParamCaption}
+\item[{double}]{\_\-r}
+\end{DoxyParamCaption}
+)}}
+\label{class_circle_a327bedfc4ded6c65ae63aa7258307a73}
+
+
+Definition at line 31 of file Circle.cpp.
+
+\hypertarget{class_circle_ac900b9ff88e37e38363b430f0206bfad}{
+\index{Circle@{Circle}!setVisible@{setVisible}}
+\index{setVisible@{setVisible}!Circle@{Circle}}
+\subsubsection[{setVisible}]{\setlength{\rightskip}{0pt plus 5cm}void Circle::setVisible (
+\begin{DoxyParamCaption}
+\item[{bool}]{\_\-activo}
+\end{DoxyParamCaption}
+)}}
+\label{class_circle_ac900b9ff88e37e38363b430f0206bfad}
+
+
+Definition at line 25 of file Circle.cpp.
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+include/tester/util/\hyperlink{_circle_8h}{Circle.h}\item 
+src/util/\hyperlink{_circle_8cpp}{Circle.cpp}\end{DoxyCompactItemize}

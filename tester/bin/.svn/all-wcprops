@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/129/trunk/tester/bin
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/127/trunk/tester/bin/Makefile
+END
+tester.pro
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/129/trunk/tester/bin/tester.pro
+END
+tester
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/127/trunk/tester/bin/tester
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/135/trunk/tester/include/tester/tasks/pointing
+END
+Trial.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/135/trunk/tester/include/tester/tasks/pointing/Trial.h
+END
+Difficulty.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/8/trunk/tester/include/tester/tasks/pointing/Difficulty.h
+END
+Block.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/134/trunk/tester/include/tester/tasks/pointing/Block.h
+END
+Experiment.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/133/trunk/tester/include/tester/tasks/pointing/Experiment.h
+END

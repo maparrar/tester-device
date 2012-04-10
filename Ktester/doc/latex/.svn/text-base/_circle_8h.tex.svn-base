@@ -1,0 +1,46 @@
+\hypertarget{_circle_8h}{
+\section{include/tester/util/Circle.h File Reference}
+\label{_circle_8h}\index{include/tester/util/Circle.h@{include/tester/util/Circle.h}}
+}
+
+
+Header for class \hyperlink{class_circle}{Circle}.  
+
+
+{\ttfamily \#include \char`\"{}Point.h\char`\"{}}\par
+{\ttfamily \#include $<$QColor$>$}\par
+Include dependency graph for Circle.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{_circle_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{_circle_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_circle}{Circle}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Header for class \hyperlink{class_circle}{Circle}. \begin{DoxyAuthor}{Author}
+Miguel Alejandro Parra Romero (\href{mailto:maparrar@unal.edu.co}{\tt maparrar@unal.edu.co}) 
+
+Jean Pierre Charalambos 
+
+Universidad Nacional de Colombia -\/ 2011
+\end{DoxyAuthor}
+BSD License
+
+Project info \href{http://code.google.com/p/tester-device/}{\tt http://code.google.com/p/tester-\/device/} 
+
+Definition in file \hyperlink{_circle_8h_source}{Circle.h}.
+

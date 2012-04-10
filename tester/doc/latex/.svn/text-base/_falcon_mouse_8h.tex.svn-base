@@ -1,0 +1,56 @@
+\hypertarget{_falcon_mouse_8h}{
+\section{include/tester/devices/falcon/FalconMouse.h File Reference}
+\label{_falcon_mouse_8h}\index{include/tester/devices/falcon/FalconMouse.h@{include/tester/devices/falcon/FalconMouse.h}}
+}
+
+
+Header for class \hyperlink{class_falcon_mouse}{FalconMouse}.  
+
+
+{\ttfamily \#include $<$iostream$>$}\par
+{\ttfamily \#include $<$string$>$}\par
+{\ttfamily \#include $<$csignal$>$}\par
+{\ttfamily \#include $<$ctime$>$}\par
+{\ttfamily \#include $<$boost/program\_\-options.hpp$>$}\par
+{\ttfamily \#include \char`\"{}falcon/core/FalconDevice.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}falcon/firmware/FalconFirmwareNovintSDK.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}falcon/grip/FalconGripFourButton.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}falcon/kinematic/FalconKinematicStamper.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}falcon/util/FalconCLIBase.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}falcon/util/FalconDeviceBoostThread.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}../../util/Point.h\char`\"{}}\par
+Include dependency graph for FalconMouse.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{_falcon_mouse_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{_falcon_mouse_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_falcon_mouse}{FalconMouse}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Header for class \hyperlink{class_falcon_mouse}{FalconMouse}. \begin{DoxyAuthor}{Author}
+Miguel Alejandro Parra Romero (\href{mailto:maparrar@unal.edu.co}{\tt maparrar@unal.edu.co}) 
+
+Jean Pierre Charalambos 
+
+Universidad Nacional de Colombia -\/ 2011
+\end{DoxyAuthor}
+BSD License
+
+Project info \href{http://code.google.com/p/tester-device/}{\tt http://code.google.com/p/tester-\/device/} 
+
+Definition in file \hyperlink{_falcon_mouse_8h_source}{FalconMouse.h}.
+

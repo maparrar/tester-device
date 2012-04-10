@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/137/trunk/tester/nbproject
+END
+Package-Release.bash
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/tester/nbproject/Package-Release.bash
+END
+project.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/137/trunk/tester/nbproject/project.xml
+END
+configurations.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/137/trunk/tester/nbproject/configurations.xml
+END
+Package-Debug.bash
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/tester/nbproject/Package-Debug.bash
+END
+Makefile-Release.mk
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/137/trunk/tester/nbproject/Makefile-Release.mk
+END
+qt-Debug.pro
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/tester/nbproject/qt-Debug.pro
+END
+Makefile-variables.mk
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/137/trunk/tester/nbproject/Makefile-variables.mk
+END
+Makefile-impl.mk
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/137/trunk/tester/nbproject/Makefile-impl.mk
+END
+qt-Release.pro
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/tester/nbproject/qt-Release.pro
+END
+Makefile-Debug.mk
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/137/trunk/tester/nbproject/Makefile-Debug.mk
+END

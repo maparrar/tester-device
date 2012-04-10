@@ -1,0 +1,136 @@
+\hypertarget{class_difficulty}{
+\section{Difficulty Class Reference}
+\label{class_difficulty}\index{Difficulty@{Difficulty}}
+}
+
+
+{\ttfamily \#include $<$Difficulty.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_difficulty_ae6d77920b5094a75a814a9e320e1a10c}{Difficulty} ()
+\item 
+\hyperlink{class_difficulty_a873686a48f7fd4f7ece0ae4c712f9c28}{Difficulty} (int \_\-width, int \_\-distance)
+\item 
+virtual \hyperlink{class_difficulty_ae4222fa7ee1bd1c25e346026550388cb}{$\sim$Difficulty} ()
+\item 
+void \hyperlink{class_difficulty_acfb486d20649b375ce3be6c22c0de3c9}{setWidth} (int \_\-width)
+\item 
+int \hyperlink{class_difficulty_ab8b7b2c86a3436c294e90eed03321a6d}{getWidth} ()
+\item 
+void \hyperlink{class_difficulty_a8ba872653ea51b1ffe1c6173f199ff78}{setDistance} (int \_\-distance)
+\item 
+int \hyperlink{class_difficulty_aaf706c81db0e2b7c7b3fb82a45ed974f}{getDistance} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+It has a wide target and the distance between points, from these values, calculated on each trial the ID (index of difficulty). The value of each difficulty must be planned according to the hardware used in the experiment. 
+
+Definition at line 13 of file Difficulty.h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_difficulty_ae6d77920b5094a75a814a9e320e1a10c}{
+\index{Difficulty@{Difficulty}!Difficulty@{Difficulty}}
+\index{Difficulty@{Difficulty}!Difficulty@{Difficulty}}
+\subsubsection[{Difficulty}]{\setlength{\rightskip}{0pt plus 5cm}Difficulty::Difficulty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_difficulty_ae6d77920b5094a75a814a9e320e1a10c}
+
+
+Definition at line 8 of file Difficulty.cpp.
+
+\hypertarget{class_difficulty_a873686a48f7fd4f7ece0ae4c712f9c28}{
+\index{Difficulty@{Difficulty}!Difficulty@{Difficulty}}
+\index{Difficulty@{Difficulty}!Difficulty@{Difficulty}}
+\subsubsection[{Difficulty}]{\setlength{\rightskip}{0pt plus 5cm}Difficulty::Difficulty (
+\begin{DoxyParamCaption}
+\item[{int}]{\_\-width, }
+\item[{int}]{\_\-distance}
+\end{DoxyParamCaption}
+)}}
+\label{class_difficulty_a873686a48f7fd4f7ece0ae4c712f9c28}
+
+
+Definition at line 12 of file Difficulty.cpp.
+
+\hypertarget{class_difficulty_ae4222fa7ee1bd1c25e346026550388cb}{
+\index{Difficulty@{Difficulty}!$\sim$Difficulty@{$\sim$Difficulty}}
+\index{$\sim$Difficulty@{$\sim$Difficulty}!Difficulty@{Difficulty}}
+\subsubsection[{$\sim$Difficulty}]{\setlength{\rightskip}{0pt plus 5cm}Difficulty::$\sim$Difficulty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{class_difficulty_ae4222fa7ee1bd1c25e346026550388cb}
+
+
+Definition at line 16 of file Difficulty.cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_difficulty_aaf706c81db0e2b7c7b3fb82a45ed974f}{
+\index{Difficulty@{Difficulty}!getDistance@{getDistance}}
+\index{getDistance@{getDistance}!Difficulty@{Difficulty}}
+\subsubsection[{getDistance}]{\setlength{\rightskip}{0pt plus 5cm}int Difficulty::getDistance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_difficulty_aaf706c81db0e2b7c7b3fb82a45ed974f}
+
+
+Definition at line 26 of file Difficulty.cpp.
+
+\hypertarget{class_difficulty_ab8b7b2c86a3436c294e90eed03321a6d}{
+\index{Difficulty@{Difficulty}!getWidth@{getWidth}}
+\index{getWidth@{getWidth}!Difficulty@{Difficulty}}
+\subsubsection[{getWidth}]{\setlength{\rightskip}{0pt plus 5cm}int Difficulty::getWidth (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_difficulty_ab8b7b2c86a3436c294e90eed03321a6d}
+
+
+Definition at line 20 of file Difficulty.cpp.
+
+\hypertarget{class_difficulty_a8ba872653ea51b1ffe1c6173f199ff78}{
+\index{Difficulty@{Difficulty}!setDistance@{setDistance}}
+\index{setDistance@{setDistance}!Difficulty@{Difficulty}}
+\subsubsection[{setDistance}]{\setlength{\rightskip}{0pt plus 5cm}void Difficulty::setDistance (
+\begin{DoxyParamCaption}
+\item[{int}]{\_\-distance}
+\end{DoxyParamCaption}
+)}}
+\label{class_difficulty_a8ba872653ea51b1ffe1c6173f199ff78}
+
+
+Definition at line 23 of file Difficulty.cpp.
+
+\hypertarget{class_difficulty_acfb486d20649b375ce3be6c22c0de3c9}{
+\index{Difficulty@{Difficulty}!setWidth@{setWidth}}
+\index{setWidth@{setWidth}!Difficulty@{Difficulty}}
+\subsubsection[{setWidth}]{\setlength{\rightskip}{0pt plus 5cm}void Difficulty::setWidth (
+\begin{DoxyParamCaption}
+\item[{int}]{\_\-width}
+\end{DoxyParamCaption}
+)}}
+\label{class_difficulty_acfb486d20649b375ce3be6c22c0de3c9}
+
+
+Definition at line 17 of file Difficulty.cpp.
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+include/tester/tasks/pointing/\hyperlink{_difficulty_8h}{Difficulty.h}\item 
+src/tasks/pointing/\hyperlink{_difficulty_8cpp}{Difficulty.cpp}\end{DoxyCompactItemize}

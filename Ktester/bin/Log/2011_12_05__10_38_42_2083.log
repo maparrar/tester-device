@@ -1,0 +1,5 @@
+    11906	INFO      	Log	XnLog.cpp	329	OpenNI version is 1.4.0 (Build 2)-Linux-x86 (Nov 16 2011 15:07:49)
+    11992	INFO      	Log	XnLog.cpp	307	--- Filter Info --- Minimum Severity: ERROR
+518470590	ERROR     	DeviceSensorProtocol	XnHostProtocol.cpp	957	Failed setting [5] to [0]: Failed to send a USB control request!
+518477055	ERROR     	DeviceSensorProtocol	XnHostProtocol.cpp	957	Failed setting [6] to [0]: Failed to send a USB control request!
+518483146	ERROR     	DeviceSensorProtocol	XnHostProtocol.cpp	957	Failed setting [7] to [0]: Failed to send a USB control request!

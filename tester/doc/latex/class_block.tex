@@ -1,0 +1,253 @@
+\hypertarget{class_block}{
+\section{Block Class Reference}
+\label{class_block}\index{Block@{Block}}
+}
+
+
+{\ttfamily \#include $<$Block.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_block_a37658a946bf5067ad01d68d9ff086adc}{Block} ()
+\item 
+\hyperlink{class_block_adf23566c89dd2cd0bb6137b27fc2e8a7}{Block} (int \_\-cantidad)
+\item 
+virtual \hyperlink{class_block_a19d1bd0e1cef6a865ed2745a2e648405}{$\sim$Block} ()
+\item 
+void \hyperlink{class_block_ab665724e220de58b40704719a8da183b}{setQuantity} (int \_\-quantity)
+\item 
+int \hyperlink{class_block_aaa0a5cd1ca22a7c85a683bb736042cc1}{getQuantity} ()
+\item 
+void \hyperlink{class_block_a980fbc1957521327e41ea8a1eb6e8e95}{setState} (int \_\-state)
+\item 
+int \hyperlink{class_block_aeaa7b785eb3448f9305bca564ebddbe7}{getState} ()
+\item 
+float \hyperlink{class_block_a878b298886ed335bc355021794b17c16}{getTP} ()
+\item 
+void \hyperlink{class_block_a5a9b68685f25f3d27937bffb5799b15c}{init} ()
+\item 
+void \hyperlink{class_block_a708e7b263d7641aa3f38a338d4d4f93a}{paint} ()
+\item 
+void \hyperlink{class_block_aa9b90d55b9acb5b08dfd0e60f4355763}{click} (\hyperlink{class_point}{Point} p)
+\item 
+void \hyperlink{class_block_a1bb14a4844e1dc65a54c5a1bf6780ef8}{fillId} ()
+\item 
+void \hyperlink{class_block_a8077b4c73c94e4ec0e83151d81c9c54c}{generateTrials} ()
+\item 
+void \hyperlink{class_block_acf280d07c11b0e4f9526e8fa255b457b}{calculateTP} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_block}{Block} allows manage the trials. State of the \hyperlink{class_block}{Block}
+\begin{DoxyItemize}
+\item 0: The \hyperlink{class_block}{Block} doesn't have started
+\item 1: The \hyperlink{class_block}{Block} has started, shows the current trial
+\item 2: Finished block, doesn't show anything 
+\end{DoxyItemize}
+
+Definition at line 20 of file Block.h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_block_a37658a946bf5067ad01d68d9ff086adc}{
+\index{Block@{Block}!Block@{Block}}
+\index{Block@{Block}!Block@{Block}}
+\subsubsection[{Block}]{\setlength{\rightskip}{0pt plus 5cm}Block::Block (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_block_a37658a946bf5067ad01d68d9ff086adc}
+
+
+Definition at line 9 of file Block.cpp.
+
+\hypertarget{class_block_adf23566c89dd2cd0bb6137b27fc2e8a7}{
+\index{Block@{Block}!Block@{Block}}
+\index{Block@{Block}!Block@{Block}}
+\subsubsection[{Block}]{\setlength{\rightskip}{0pt plus 5cm}Block::Block (
+\begin{DoxyParamCaption}
+\item[{int}]{\_\-cantidad}
+\end{DoxyParamCaption}
+)}}
+\label{class_block_adf23566c89dd2cd0bb6137b27fc2e8a7}
+
+
+Definition at line 14 of file Block.cpp.
+
+\hypertarget{class_block_a19d1bd0e1cef6a865ed2745a2e648405}{
+\index{Block@{Block}!$\sim$Block@{$\sim$Block}}
+\index{$\sim$Block@{$\sim$Block}!Block@{Block}}
+\subsubsection[{$\sim$Block}]{\setlength{\rightskip}{0pt plus 5cm}Block::$\sim$Block (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{class_block_a19d1bd0e1cef6a865ed2745a2e648405}
+
+
+Definition at line 19 of file Block.cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_block_acf280d07c11b0e4f9526e8fa255b457b}{
+\index{Block@{Block}!calculateTP@{calculateTP}}
+\index{calculateTP@{calculateTP}!Block@{Block}}
+\subsubsection[{calculateTP}]{\setlength{\rightskip}{0pt plus 5cm}void Block::calculateTP (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_block_acf280d07c11b0e4f9526e8fa255b457b}
+Calculate the Throughput for this \hyperlink{class_block}{Block} 
+
+Definition at line 76 of file Block.cpp.
+
+\hypertarget{class_block_aa9b90d55b9acb5b08dfd0e60f4355763}{
+\index{Block@{Block}!click@{click}}
+\index{click@{click}!Block@{Block}}
+\subsubsection[{click}]{\setlength{\rightskip}{0pt plus 5cm}void Block::click (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p}
+\end{DoxyParamCaption}
+)}}
+\label{class_block_aa9b90d55b9acb5b08dfd0e60f4355763}
+Send the \hyperlink{class_point}{Point} click to the Trials 
+\begin{DoxyParams}{Parameters}
+{\em p} & \hyperlink{class_point}{Point} clicked \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 57 of file Block.cpp.
+
+\hypertarget{class_block_a1bb14a4844e1dc65a54c5a1bf6780ef8}{
+\index{Block@{Block}!fillId@{fillId}}
+\index{fillId@{fillId}!Block@{Block}}
+\subsubsection[{fillId}]{\setlength{\rightskip}{0pt plus 5cm}void Block::fillId (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_block_a1bb14a4844e1dc65a54c5a1bf6780ef8}
+Fill the IDs array 
+
+Definition at line 60 of file Block.cpp.
+
+\hypertarget{class_block_a8077b4c73c94e4ec0e83151d81c9c54c}{
+\index{Block@{Block}!generateTrials@{generateTrials}}
+\index{generateTrials@{generateTrials}!Block@{Block}}
+\subsubsection[{generateTrials}]{\setlength{\rightskip}{0pt plus 5cm}void Block::generateTrials (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_block_a8077b4c73c94e4ec0e83151d81c9c54c}
+Calculate the trials using the IDs array and the quantity of trials 
+
+Definition at line 68 of file Block.cpp.
+
+\hypertarget{class_block_aaa0a5cd1ca22a7c85a683bb736042cc1}{
+\index{Block@{Block}!getQuantity@{getQuantity}}
+\index{getQuantity@{getQuantity}!Block@{Block}}
+\subsubsection[{getQuantity}]{\setlength{\rightskip}{0pt plus 5cm}int Block::getQuantity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_block_aaa0a5cd1ca22a7c85a683bb736042cc1}
+
+
+Definition at line 23 of file Block.cpp.
+
+\hypertarget{class_block_aeaa7b785eb3448f9305bca564ebddbe7}{
+\index{Block@{Block}!getState@{getState}}
+\index{getState@{getState}!Block@{Block}}
+\subsubsection[{getState}]{\setlength{\rightskip}{0pt plus 5cm}int Block::getState (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_block_aeaa7b785eb3448f9305bca564ebddbe7}
+
+
+Definition at line 29 of file Block.cpp.
+
+\hypertarget{class_block_a878b298886ed335bc355021794b17c16}{
+\index{Block@{Block}!getTP@{getTP}}
+\index{getTP@{getTP}!Block@{Block}}
+\subsubsection[{getTP}]{\setlength{\rightskip}{0pt plus 5cm}float Block::getTP (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_block_a878b298886ed335bc355021794b17c16}
+Returns the Throughput of the \hyperlink{class_block}{Block} \begin{DoxyReturn}{Returns}
+TP of the \hyperlink{class_block}{Block} 
+\end{DoxyReturn}
+
+
+Definition at line 32 of file Block.cpp.
+
+\hypertarget{class_block_a5a9b68685f25f3d27937bffb5799b15c}{
+\index{Block@{Block}!init@{init}}
+\index{init@{init}!Block@{Block}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void Block::init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_block_a5a9b68685f25f3d27937bffb5799b15c}
+Starts the \hyperlink{class_block}{Block} 
+
+Definition at line 38 of file Block.cpp.
+
+\hypertarget{class_block_a708e7b263d7641aa3f38a338d4d4f93a}{
+\index{Block@{Block}!paint@{paint}}
+\index{paint@{paint}!Block@{Block}}
+\subsubsection[{paint}]{\setlength{\rightskip}{0pt plus 5cm}void Block::paint (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_block_a708e7b263d7641aa3f38a338d4d4f93a}
+Draws the \hyperlink{class_block}{Block} 
+
+Definition at line 43 of file Block.cpp.
+
+\hypertarget{class_block_ab665724e220de58b40704719a8da183b}{
+\index{Block@{Block}!setQuantity@{setQuantity}}
+\index{setQuantity@{setQuantity}!Block@{Block}}
+\subsubsection[{setQuantity}]{\setlength{\rightskip}{0pt plus 5cm}void Block::setQuantity (
+\begin{DoxyParamCaption}
+\item[{int}]{\_\-quantity}
+\end{DoxyParamCaption}
+)}}
+\label{class_block_ab665724e220de58b40704719a8da183b}
+
+
+Definition at line 20 of file Block.cpp.
+
+\hypertarget{class_block_a980fbc1957521327e41ea8a1eb6e8e95}{
+\index{Block@{Block}!setState@{setState}}
+\index{setState@{setState}!Block@{Block}}
+\subsubsection[{setState}]{\setlength{\rightskip}{0pt plus 5cm}void Block::setState (
+\begin{DoxyParamCaption}
+\item[{int}]{\_\-state}
+\end{DoxyParamCaption}
+)}}
+\label{class_block_a980fbc1957521327e41ea8a1eb6e8e95}
+
+
+Definition at line 26 of file Block.cpp.
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+include/tester/tasks/pointing/\hyperlink{_block_8h}{Block.h}\item 
+src/tasks/pointing/\hyperlink{_block_8cpp}{Block.cpp}\end{DoxyCompactItemize}

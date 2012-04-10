@@ -1,0 +1,14 @@
+\hypertarget{_intento_8cpp}{
+\section{src/tasks/pointing/Intento.cpp File Reference}
+\label{_intento_8cpp}\index{src/tasks/pointing/Intento.cpp@{src/tasks/pointing/Intento.cpp}}
+}
+{\ttfamily \#include \char`\"{}Intento.h\char`\"{}}\par
+{\ttfamily \#include $<$GL/glut.h$>$}\par
+{\ttfamily \#include $<$iostream$>$}\par
+Include dependency graph for Intento.cpp:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{_intento_8cpp__incl}
+\end{center}
+\end{figure}

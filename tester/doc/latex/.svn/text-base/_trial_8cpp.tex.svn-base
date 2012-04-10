@@ -1,0 +1,35 @@
+\hypertarget{_trial_8cpp}{
+\section{src/tasks/pointing/Trial.cpp File Reference}
+\label{_trial_8cpp}\index{src/tasks/pointing/Trial.cpp@{src/tasks/pointing/Trial.cpp}}
+}
+
+
+\hyperlink{class_trial}{Trial} Class.  
+
+
+{\ttfamily \#include \char`\"{}../../../include/tester/tasks/pointing/Trial.h\char`\"{}}\par
+{\ttfamily \#include $<$GL/glut.h$>$}\par
+{\ttfamily \#include $<$iostream$>$}\par
+Include dependency graph for Trial.cpp:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{_trial_8cpp__incl}
+\end{center}
+\end{figure}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_trial}{Trial} Class. \begin{DoxyAuthor}{Author}
+Miguel Alejandro Parra Romero (\href{mailto:maparrar@unal.edu.co}{\tt maparrar@unal.edu.co}) 
+
+Jean Pierre Charalambos 
+
+Universidad Nacional de Colombia -\/ 2011
+\end{DoxyAuthor}
+BSD License
+
+Project info \href{http://code.google.com/p/tester-device/}{\tt http://code.google.com/p/tester-\/device/} 
+
+Definition in file \hyperlink{_trial_8cpp_source}{Trial.cpp}.
+

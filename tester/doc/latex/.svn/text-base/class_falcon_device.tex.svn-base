@@ -1,0 +1,39 @@
+\hypertarget{class_falcon_device}{
+\section{FalconDevice Class Reference}
+\label{class_falcon_device}\index{FalconDevice@{FalconDevice}}
+}
+
+
+{\ttfamily \#include $<$Point.h$>$}
+
+
+
+\subsection{Detailed Description}
+\hyperlink{class_falcon_device}{FalconDevice} is a conveinence class that ties together all of the components in libnifalcon to create a simple, usable single object for accessing and controlling a novint falcon. It does this by using a templated version of the pimpl idiom to fulfill the following behaviors:
+
+
+\begin{DoxyItemize}
+\item Communication (set automatically in the constructor)
+\item Firmware
+\item Grip
+\item Kinematics
+\end{DoxyItemize}
+
+Once these behaviors are established, \hyperlink{class_falcon_device}{FalconDevice} can be used to get/set common parameters (end effector position, force generation, LED status, button/grip status, etc...) without have to refer to the specific behavior class.
+
+The most common use of libnifalcon will look something like
+
+
+\begin{DoxyItemize}
+\item Create \hyperlink{class_falcon_device}{FalconDevice} object
+\item Set behaviors
+\item Open device
+\item Start running the FalconDevice::runIOLoop function until falcon control is no longer needed
+\item Close device
+\end{DoxyItemize}
+
+All of the above functions can be achieved through using the \hyperlink{class_falcon_device}{FalconDevice} object. 
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+include/tester/util/\hyperlink{_point_8h}{Point.h}\end{DoxyCompactItemize}

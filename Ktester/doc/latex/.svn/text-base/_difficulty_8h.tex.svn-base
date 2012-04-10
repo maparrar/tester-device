@@ -1,0 +1,37 @@
+\hypertarget{_difficulty_8h}{
+\section{include/tester/tasks/pointing/Difficulty.h File Reference}
+\label{_difficulty_8h}\index{include/tester/tasks/pointing/Difficulty.h@{include/tester/tasks/pointing/Difficulty.h}}
+}
+
+
+Header for class \hyperlink{class_difficulty}{Difficulty}.  
+
+
+This graph shows which files directly or indirectly include this file:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{_difficulty_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_difficulty}{Difficulty}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Header for class \hyperlink{class_difficulty}{Difficulty}. \begin{DoxyAuthor}{Author}
+Miguel Alejandro Parra Romero (\href{mailto:maparrar@unal.edu.co}{\tt maparrar@unal.edu.co}) 
+
+Jean Pierre Charalambos 
+
+Universidad Nacional de Colombia -\/ 2011
+\end{DoxyAuthor}
+BSD License
+
+Project info \href{http://code.google.com/p/tester-device/}{\tt http://code.google.com/p/tester-\/device/} 
+
+Definition in file \hyperlink{_difficulty_8h_source}{Difficulty.h}.
+

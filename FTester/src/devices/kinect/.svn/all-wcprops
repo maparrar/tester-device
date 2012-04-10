@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/41/trunk/tester/src/devices/kinect
+END
+KinectMouse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/41/trunk/tester/src/devices/kinect/KinectMouse.cpp
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/41/trunk/tester/src/devices/kinect/config.xml
+END

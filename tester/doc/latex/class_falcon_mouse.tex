@@ -1,0 +1,203 @@
+\hypertarget{class_falcon_mouse}{
+\section{FalconMouse Class Reference}
+\label{class_falcon_mouse}\index{FalconMouse@{FalconMouse}}
+}
+
+
+{\ttfamily \#include $<$FalconMouse.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_falcon_mouse_abaebd77e86f401304ae25f5d7be7ac2a}{FalconMouse} ()
+\item 
+virtual \hyperlink{class_falcon_mouse_a05b258252f4ed83a677e237151dfb531}{$\sim$FalconMouse} ()
+\item 
+void \hyperlink{class_falcon_mouse_a1a8d75aae2c3840f6f160e26ddfc759f}{addOptions} (int value)
+\item 
+bool \hyperlink{class_falcon_mouse_a0d656c5817a58d5d6c5bdc1016d60bc5}{parseOptions} (int argc, char $\ast$$\ast$argv)
+\item 
+void \hyperlink{class_falcon_mouse_a9cd6675b784c9e7d5f4ec6af05919efd}{init} ()
+\item 
+double \hyperlink{class_falcon_mouse_a441e8d2ea201d749bf10847793380e79}{getX} ()
+\item 
+double \hyperlink{class_falcon_mouse_ab4dcb9ad7728f0847095559e4cdbdc31}{getY} ()
+\item 
+\hyperlink{class_point}{Point} \hyperlink{class_falcon_mouse_a965c35b0f3a7bd62a5c0e7acd189df26}{getPos} ()
+\item 
+bool \hyperlink{class_falcon_mouse_ad069f6b96e7e290f2a784721812a4aff}{getClick} (int button)
+\item 
+void \hyperlink{class_falcon_mouse_a2b38fc051ecd1b4849fd01349bef56ff}{setForce} (double x, double y, double z)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_falcon_mouse}{FalconMouse} allows use Novint's Falcon like a standard mouse. Allows capture the Falcon sphere and is mapped to the cursor. Also provides a method to set force and capture the four buttons. \hyperlink{class_falcon_mouse}{FalconMouse} class is based on the example \hyperlink{class_falcon_mouse}{FalconMouse} of the library libnifalcon created by Kile Machulis (\href{http://qdot.github.com/libnifalcon/}{\tt http://qdot.github.com/libnifalcon/}). 
+
+Definition at line 28 of file FalconMouse.h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_falcon_mouse_abaebd77e86f401304ae25f5d7be7ac2a}{
+\index{FalconMouse@{FalconMouse}!FalconMouse@{FalconMouse}}
+\index{FalconMouse@{FalconMouse}!FalconMouse@{FalconMouse}}
+\subsubsection[{FalconMouse}]{\setlength{\rightskip}{0pt plus 5cm}FalconMouse::FalconMouse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_falcon_mouse_abaebd77e86f401304ae25f5d7be7ac2a}
+
+
+Definition at line 9 of file FalconMouse.cpp.
+
+\hypertarget{class_falcon_mouse_a05b258252f4ed83a677e237151dfb531}{
+\index{FalconMouse@{FalconMouse}!$\sim$FalconMouse@{$\sim$FalconMouse}}
+\index{$\sim$FalconMouse@{$\sim$FalconMouse}!FalconMouse@{FalconMouse}}
+\subsubsection[{$\sim$FalconMouse}]{\setlength{\rightskip}{0pt plus 5cm}FalconMouse::$\sim$FalconMouse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{class_falcon_mouse_a05b258252f4ed83a677e237151dfb531}
+
+
+Definition at line 10 of file FalconMouse.cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_falcon_mouse_a1a8d75aae2c3840f6f160e26ddfc759f}{
+\index{FalconMouse@{FalconMouse}!addOptions@{addOptions}}
+\index{addOptions@{addOptions}!FalconMouse@{FalconMouse}}
+\subsubsection[{addOptions}]{\setlength{\rightskip}{0pt plus 5cm}void FalconMouse::addOptions (
+\begin{DoxyParamCaption}
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}}
+\label{class_falcon_mouse_a1a8d75aae2c3840f6f160e26ddfc759f}
+
+
+Definition at line 14 of file FalconMouse.cpp.
+
+\hypertarget{class_falcon_mouse_ad069f6b96e7e290f2a784721812a4aff}{
+\index{FalconMouse@{FalconMouse}!getClick@{getClick}}
+\index{getClick@{getClick}!FalconMouse@{FalconMouse}}
+\subsubsection[{getClick}]{\setlength{\rightskip}{0pt plus 5cm}bool FalconMouse::getClick (
+\begin{DoxyParamCaption}
+\item[{int}]{button}
+\end{DoxyParamCaption}
+)}}
+\label{class_falcon_mouse_ad069f6b96e7e290f2a784721812a4aff}
+Shows if the button is pressed 
+\begin{DoxyParams}{Parameters}
+{\em button} & a number between 0 and 3, it represents one of the Falcon's buttons \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the button is pressed, false in otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 55 of file FalconMouse.cpp.
+
+\hypertarget{class_falcon_mouse_a965c35b0f3a7bd62a5c0e7acd189df26}{
+\index{FalconMouse@{FalconMouse}!getPos@{getPos}}
+\index{getPos@{getPos}!FalconMouse@{FalconMouse}}
+\subsubsection[{getPos}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Point} FalconMouse::getPos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_falcon_mouse_a965c35b0f3a7bd62a5c0e7acd189df26}
+Returns the position of the Falcon's sphere \begin{DoxyReturn}{Returns}
+\hyperlink{class_point}{Point} p with the sphere position 
+\end{DoxyReturn}
+
+
+Definition at line 46 of file FalconMouse.cpp.
+
+\hypertarget{class_falcon_mouse_a441e8d2ea201d749bf10847793380e79}{
+\index{FalconMouse@{FalconMouse}!getX@{getX}}
+\index{getX@{getX}!FalconMouse@{FalconMouse}}
+\subsubsection[{getX}]{\setlength{\rightskip}{0pt plus 5cm}double FalconMouse::getX (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_falcon_mouse_a441e8d2ea201d749bf10847793380e79}
+
+
+Definition at line 28 of file FalconMouse.cpp.
+
+\hypertarget{class_falcon_mouse_ab4dcb9ad7728f0847095559e4cdbdc31}{
+\index{FalconMouse@{FalconMouse}!getY@{getY}}
+\index{getY@{getY}!FalconMouse@{FalconMouse}}
+\subsubsection[{getY}]{\setlength{\rightskip}{0pt plus 5cm}double FalconMouse::getY (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_falcon_mouse_ab4dcb9ad7728f0847095559e4cdbdc31}
+
+
+Definition at line 37 of file FalconMouse.cpp.
+
+\hypertarget{class_falcon_mouse_a9cd6675b784c9e7d5f4ec6af05919efd}{
+\index{FalconMouse@{FalconMouse}!init@{init}}
+\index{init@{init}!FalconMouse@{FalconMouse}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void FalconMouse::init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_falcon_mouse_a9cd6675b784c9e7d5f4ec6af05919efd}
+
+
+Definition at line 21 of file FalconMouse.cpp.
+
+\hypertarget{class_falcon_mouse_a0d656c5817a58d5d6c5bdc1016d60bc5}{
+\index{FalconMouse@{FalconMouse}!parseOptions@{parseOptions}}
+\index{parseOptions@{parseOptions}!FalconMouse@{FalconMouse}}
+\subsubsection[{parseOptions}]{\setlength{\rightskip}{0pt plus 5cm}bool FalconMouse::parseOptions (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv}
+\end{DoxyParamCaption}
+)}}
+\label{class_falcon_mouse_a0d656c5817a58d5d6c5bdc1016d60bc5}
+
+
+Definition at line 17 of file FalconMouse.cpp.
+
+\hypertarget{class_falcon_mouse_a2b38fc051ecd1b4849fd01349bef56ff}{
+\index{FalconMouse@{FalconMouse}!setForce@{setForce}}
+\index{setForce@{setForce}!FalconMouse@{FalconMouse}}
+\subsubsection[{setForce}]{\setlength{\rightskip}{0pt plus 5cm}void FalconMouse::setForce (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{z}
+\end{DoxyParamCaption}
+)}}
+\label{class_falcon_mouse_a2b38fc051ecd1b4849fd01349bef56ff}
+Sets the force vector of the Falcon 
+\begin{DoxyParams}{Parameters}
+{\em x} & force in x-\/axis (-\/3,3) \\
+\hline
+{\em y} & force in y-\/axis (-\/3,3) \\
+\hline
+{\em z} & force in z-\/axis (-\/3,3) \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 58 of file FalconMouse.cpp.
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+include/tester/devices/falcon/\hyperlink{_falcon_mouse_8h}{FalconMouse.h}\item 
+src/devices/falcon/\hyperlink{_falcon_mouse_8cpp}{FalconMouse.cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,9 @@
+\hypertarget{_dificultad_8h}{
+\section{include/tester/tasks/pointing/Dificultad.h File Reference}
+\label{_dificultad_8h}\index{include/tester/tasks/pointing/Dificultad.h@{include/tester/tasks/pointing/Dificultad.h}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_difficulty}{Difficulty}
+\end{DoxyCompactItemize}

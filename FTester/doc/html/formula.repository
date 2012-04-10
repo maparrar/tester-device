@@ -1,0 +1,5 @@
+\form#0:$(x_1,y_1)$
+\form#1:$ID=log2((D/W)+1)$
+\form#2:$ID=log_2((frac{D}{W})+1)$
+\form#3:$ID=log_2((\frac{D}{W})+1)$
+\form#4:$ID=log_2(\frac{D}{W}+1)$

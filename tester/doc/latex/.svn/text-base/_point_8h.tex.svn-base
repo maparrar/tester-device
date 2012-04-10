@@ -1,0 +1,45 @@
+\hypertarget{_point_8h}{
+\section{include/tester/util/Point.h File Reference}
+\label{_point_8h}\index{include/tester/util/Point.h@{include/tester/util/Point.h}}
+}
+
+
+Header for class \hyperlink{class_point}{Point}.  
+
+
+{\ttfamily \#include \char`\"{}math.h\char`\"{}}\par
+Include dependency graph for Point.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{_point_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{_point_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_point}{Point}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Header for class \hyperlink{class_point}{Point}. \begin{DoxyAuthor}{Author}
+Miguel Alejandro Parra Romero (\href{mailto:maparrar@unal.edu.co}{\tt maparrar@unal.edu.co}) 
+
+Jean Pierre Charalambos 
+
+Universidad Nacional de Colombia -\/ 2011
+\end{DoxyAuthor}
+BSD License
+
+Project info \href{http://code.google.com/p/tester-device/}{\tt http://code.google.com/p/tester-\/device/} 
+
+Definition in file \hyperlink{_point_8h_source}{Point.h}.
+
